@@ -1,0 +1,18 @@
+
+
+.card .card-image img{
+    height: 15rem;
+}
+
+.description-header{
+    padding-bottom: 2rem;
+    text-decoration: underline;
+}
+
+.card .card-content{
+    padding-bottom: 4rem;
+}
+
+.article-link{
+    padding-top: 1rem;
+}
