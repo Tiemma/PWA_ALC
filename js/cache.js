@@ -1,19 +1,4 @@
-
- [
-  '/style.css',
-  "/js/materialise-init.js",
-  "/js/main.js",
-  "/service-worker.js",
-  '/index.html',
-  '/',
-  'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js',
-  "/countries.json",
-  "https://fonts.googleapis.com/icon?family=Material+Icons",
-  'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css'
-].forEach(function (url, key) {
-  addToCache(url)
-})
-
+//Add requested routes to cache
 function addToCache(req_url, config=null) {
   caches.open('static-v1').then(function (cache) {
     if (config) {

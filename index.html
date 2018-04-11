@@ -7,23 +7,26 @@
 <link href="style.css" rel="stylesheet">
 </head>
 
-
 <body>
     <div class="row">
-        <div class="input-field col s12">
-            <select id="countries" onchange="getTopNews()">
+        <div class="input-field col s6">
+            <select id="countries" onchange="getNewsByCountry()">
                 <option value="" disabled selected>Choose your country</option>
             </select>
             <label>Country of Origin</label>
         </div>
+        <div class="input-field col s6">
+                <select id="sources" onchange="getNewsBySource()">
+                    <option value="" disabled selected>Choose a source</option>
+                </select>
+                <label>Available Sources</label>
+            </div>
         <br />
         <div class="col s12" id="top-headlines">
             
         </div>
     </div>
 </body>
-
-
 
 <!-- Compiled and minified JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>

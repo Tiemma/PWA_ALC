@@ -16,7 +16,7 @@ function indexData(file) {
             dataBase.createObjectStore("cache");
         },
 
-        getImageFile = function () {
+        getFile = function () {
             // Create XHR
             var xhr = new XMLHttpRequest(),
                 blob;
@@ -84,15 +84,15 @@ function indexData(file) {
                 var setVersion = db.setVersion(dbVersion);
                 setVersion.onsuccess = function () {
                     createObjectStore(db);
-                    getImageFile();
+                    getFile();
                 };
             }
             else {
-                getImageFile();
+                getFile();
             }
         }
         else {
-            getImageFile();
+            getFile();
         }
     }
     
