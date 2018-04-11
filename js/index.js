@@ -53,7 +53,7 @@ function getNewsByCountry(country=""){
         country = document.getElementById('countries').value
     }
 
-    let request = genRequest(`https://newsapi.org/v2/top-headlines?country=${country}`);
+    let request = genRequest(`https://newsapi.org/v2/top-headlines?country=${country}&pageSize=100`);
 
 
     //Get the top headlines
@@ -65,7 +65,7 @@ function getNewsBySource(source=""){
         source = document.getElementById('sources').value
     }
 
-    let request = genRequest(`https://newsapi.org/v2/top-headlines?sources=${source}`);
+    let request = genRequest(`https://newsapi.org/v2/top-headlines?sources=${source}&pageSize=100`);
 
     //Get the top headlines
     getTopNews(request);
