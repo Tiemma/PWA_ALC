@@ -24,5 +24,3 @@ You could use the apache test server setup or which ever setup is preferable.
 
 - Run with sudo if you work on linux
 
-Built by Bakare Emmanuel <bakareemmanuel98@outlook.com>
-BakMan<TM>
