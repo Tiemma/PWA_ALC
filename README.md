@@ -17,5 +17,12 @@ TODO
 - Users should be able to create lists (e.g. favourites) and group articles in these lists.
 - Remove cache dependency and use IndexedDB
 
+NOTE:
+- Source code must be run from a server unless service worker registration fails.
+You could use the apache test server setup or which ever setup is preferable.
+*php -S localhost:8080 -t .*
+
+- Run with sudo if you work on linux
+
 Built by Bakare Emmanuel <bakareemmanuel98@outlook.com>
 BakMan<TM>
