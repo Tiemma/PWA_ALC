@@ -3,7 +3,6 @@ let files = [
     '/style.css',
     "/js/materialise-init.js",
     "/js/main.js",
-    "/service-worker.js",
     '/index.html',
     '/',
     '/js/cache.js',

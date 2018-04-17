@@ -62,7 +62,11 @@ function getNewsByCountry(country=""){
 
 function getNewsBySource(source=""){
     if(!source){
-        source = document.getElementById('sources').value
+        sources = []
+        document.querySelectorAll("#sources option:checked").forEach(function(arr){
+                sources.push(arr.value);
+        });
+        source = sources.join(',')
     }
 
     let request = genRequest(`https://newsapi.org/v2/top-headlines?sources=${source}&pageSize=100`);
