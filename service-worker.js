@@ -1,15 +1,15 @@
 
 let files = [
-    '/style.css',
+    'style.css',
     "/js/materialise-init.js",
     "/js/main.js",
     '/index.html',
-    '/',
+    '',
     '/js/cache.js',
     '/js/index.js',
-    '/service-worker.js',
+    'service-worker.js',
     'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js',
-    "/countries.json",
+    "countries.json",
     "https://fonts.googleapis.com/icon?family=Material+Icons",
     'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css'
 ]
