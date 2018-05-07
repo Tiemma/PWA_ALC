@@ -1,12 +1,12 @@
 
 let files = [
     'style.css',
-    "/js/materialise-init.js",
-    "/js/main.js",
-    '/index.html',
+    "js/materialise-init.js",
+    "js/main.js",
+    'index.html',
     '',
-    '/js/cache.js',
-    '/js/index.js',
+    'js/cache.js',
+    'js/index.js',
     'service-worker.js',
     'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js',
     "countries.json",
