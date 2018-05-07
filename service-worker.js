@@ -4,7 +4,6 @@ let files = [
     "js/materialise-init.js",
     "js/main.js",
     'index.html',
-    '',
     'js/cache.js',
     'js/index.js',
     'service-worker.js',
